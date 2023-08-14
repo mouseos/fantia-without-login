@@ -3,7 +3,7 @@
 ## ダウンロード
 https://github.com/mouseos/fantia-without-login/releases/download/ver1.0/fantia-without-login.zip
 ## 使い方
-1,chrome://extensions/を開く
+1,<chrome://extensions/>を開く
 
 2,ダウンロードしたzipファイルをドラッグアンドドロップ（シークレットタブで使わない場合はここでインストール完了）
 
