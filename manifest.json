@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Fantiaぼかし解除",
+    "version": "1.0",
+    "description": "fantiaを未ログイン状態でもぼかしなしで閲覧できるようにする拡張機能です。",
+    "permissions": [
+        "activeTab"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://fantia.jp/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "css": [
+                "styles.css"
+            ]
+        }
+    ]
+}

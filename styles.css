@@ -1,0 +1,26 @@
+/* styles.css */
+.img-blurred {
+    filter: blur(0px) !important;
+    -webkit-filter: blur(0px) !important;
+}
+
+
+body #page #main.single-product .the-product .product-body .product-gallery-container .product-thumbnail-message,
+body #page #main.single-commission .the-product .product-body .product-gallery-container .product-thumbnail-message,
+body #page #main.single-live-event .the-product .product-body .product-gallery-container .product-thumbnail-message {
+    position: initial !important;
+}
+
+body #page #main.single-product .the-product .product-body .product-gallery-container .product-thumbnail-message .product-thumbnail-message-body,
+body #page #main.single-commission .the-product .product-body .product-gallery-container .product-thumbnail-message .product-thumbnail-message-body,
+body #page #main.single-live-event .the-product .product-body .product-gallery-container .product-thumbnail-message .product-thumbnail-message-body {
+    display: none !important;
+}
+
+body.posts-show #page #main.single-post .single-post-body .the-post .post-thumbnail .post-thumbnail-message .post-thumbnail-message-body {
+    display: none !important;
+}
+
+body.posts-show #page #main.single-post .single-post-body .the-post .post-thumbnail .post-thumbnail-message {
+    background-color: transparent !important;
+}
