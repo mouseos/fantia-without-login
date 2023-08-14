@@ -1,0 +1,2 @@
+# fantia-without-login
+ログインなしでfantiaのR18ページの画像を閲覧するchrome拡張
